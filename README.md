@@ -4,6 +4,8 @@ When bulk inserting, the location after 'FROM' should be changed to wherever the
 
 To run the program, pymssql and prettyTable were installed. Both can be installed using pip3 commands in the linux terminal.
 
+Note: I did not write the triggers. Those were taken from the sample solutions.
+
 How to interact with the program:
 The program runs through the termianl/shell only. It does not use any GUIs.
 The program first asks the user for a username. If the username is not in the user_yelp table, the user will not gain access to the rest of the features.
