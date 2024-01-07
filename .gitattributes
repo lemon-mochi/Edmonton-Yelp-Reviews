@@ -1,2 +1,3 @@
 *.sql linguist-detect=SQL
 *.csv linguist-detect=CSV
+*.sql linguist-detectable=true
