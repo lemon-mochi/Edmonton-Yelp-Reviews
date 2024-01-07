@@ -1,0 +1,6 @@
+USE EdmontonYelpReviews BULK INSERT user_yelp FROM 'C:\Users\genth\OneDrive\Documents\SQL Server Management Studio\csvdata\user_yelp.csv' WITH (fieldterminator=',', rowterminator='\n', firstrow=2)
+USE EdmontonYelpReviews BULK INSERT business FROM 'C:\Users\genth\OneDrive\Documents\SQL Server Management Studio\csvdata\business.csv' WITH (fieldterminator=',', rowterminator='\n', firstrow=2)
+USE EdmontonYelpReviews BULK INSERT checkin FROM 'C:\Users\genth\OneDrive\Documents\SQL Server Management Studio\csvdata\checkin.csv' WITH (fieldterminator=',', rowterminator='\n', firstrow=2)
+USE EdmontonYelpReviews BULK INSERT tip FROM 'C:\Users\genth\OneDrive\Documents\SQL Server Management Studio\csvdata\tip.csv' WITH (fieldterminator=',', rowterminator='\n', firstrow=2)
+USE EdmontonYelpReviews BULK INSERT friendship FROM 'C:\Users\genth\OneDrive\Documents\SQL Server Management Studio\csvdata\friendship.csv' WITH (fieldterminator=',', rowterminator='\n', firstrow=2)
+USE EdmontonYelpReviews BULK INSERT review FROM 'C:\Users\genth\OneDrive\Documents\SQL Server Management Studio\csvdata\review.csv' WITH (fieldterminator=',', rowterminator='\n', firstrow=2)
